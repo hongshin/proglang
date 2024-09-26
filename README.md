@@ -25,3 +25,6 @@
 
 ### Homework ###
 * [Functional Programming Exercise 1 (Sep 19)]() (no submission assigned)
+* Homework 1. Entrance Survey
+  - 5118014-01 https://forms.gle/H2D7HuGjdBa6jDw4A (due: Sep 2)
+  - 5118014-02 https://forms.gle/ZaC6pEfyF2akRxBFA (due: Sep 4)
