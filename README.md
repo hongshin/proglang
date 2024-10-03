@@ -13,8 +13,8 @@
   - authored by [Jaemin Hong](https://hjaem.info/) and [Sukyoung Ryu](https://plrg.kaist.ac.kr/ryu)
   - the online version of this textbook is freely available to everyone.
   
-### Lecture Schedule & Notes ###
-* Week 5. Syntax and Semantics [\[pdf\]](ch6.pdf)
+**Lectures: schedule & notes**
+* Week 5. Syntax and Semantics [\[pdf\]](res/ch6.pdf)
 * Week 4. [Test 1 for 5118014-01 (Sep 26)](res/test1-1.pdf), [Test 1 for 5118014-02 (Sep 27)](res/test1-2.pdf)
 * Week 3. Immutability, Functions and Pattern Matching (ITPL Ch. 3-5) [\[ch4.pdf\]](res/ch4.pdf)
 * Week 2. Introduction to Functional Programming with Scala (ITPL Ch. 2) [\[pdf\]](res/ch2.pdf)
