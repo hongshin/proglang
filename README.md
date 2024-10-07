@@ -14,6 +14,7 @@
   - the online version of this textbook is freely available to everyone.
   
 **Lectures: schedule & notes**
+* Week 6. Identifiers [\[pdf\]](res/ch7-identifiers.pdf) / First-order Function 
 * Week 5. Syntax and Semantics [\[pdf\]](res/ch6.pdf)
 * Week 4. [Test 1 for 5118014-01 (Sep 26)](res/test1-1.pdf), [Test 1 for 5118014-02 (Sep 27)](res/test1-2.pdf)
 * Week 3. Immutability, Functions and Pattern Matching (ITPL Ch. 3-5) [\[ch4.pdf\]](res/ch4.pdf)
