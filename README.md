@@ -14,7 +14,9 @@
   - the online version of this textbook is freely available to everyone.
   
 **Lectures: schedule & notes**
-* Week 8. Recursive Function [\[pdf\]](res/ch10-recursive-function.pdf) [\[src\]](src/rfae)
+* Week 10. Midterm 2
+* Week 9. (No class)
+* Week 8. Recursive Function [\[pdf\]](res/ch10-recursive+function.pdf) [\[src\]](src/rfae)
 * Week 7. First-class Function [\[pdf\]](res/ch9-first-class-function.pdf) [\[src\]](src/fvae)
 * Week 6. Identifiers [\[pdf\]](res/ch7-identifiers.pdf) [\[src\]](src/vae) / First-order Function [\[pdf\]](res/ch8-first-order-function.pdf) [\[src\]](src/f1vae)
 * Week 5. Syntax and Semantics [\[pdf\]](res/ch6.pdf)
