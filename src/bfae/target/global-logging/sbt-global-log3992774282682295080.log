@@ -1,0 +1,147 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(addDefaultCommands), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(addDefaultCommands, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(early(initialize), None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(initialize, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(boot, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(writeSbtVersion, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, None)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, None)[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.10.1 (Ubuntu Java 11.0.24)[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 99.672216ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 87.445314ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.553833ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/hongshin/Course/PL/src/rfae1/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/hongshin/Course/PL/src/rfae1/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 17.824178 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(rfae1-build) took 57.91139ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id rfae1-build, base: /home/hongshin/Course/PL/src/rfae1/project, plugins: List(<none>))) took 108.903323ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /home/hongshin/Course/PL/src/rfae1/project, returning: (rfae1-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 133.298732ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 0.168645ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/home/hongshin/Course/PL/src/rfae1/project/, ...) took 227.135079ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 410.196552ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 6.761589ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 71.237358ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 9.853124ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 455.526734ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 84.179936ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 1.484376ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /home/hongshin/Course/PL/src/rfae1/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 1936.49815ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.004759ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /home/hongshin/Course/PL/src/rfae1[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 4.605731ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mType error in expression[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.compiler.Eval.checkError(Eval.scala:502)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.compiler.Eval.compileAndLoad(Eval.scala:275)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.compiler.Eval.compileAndLoad(Eval.scala:242)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.compiler.Eval.evalCommon(Eval.scala:216)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.compiler.Eval.evalDefinitions(Eval.scala:167)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.EvaluateConfigurations$.evaluateDefinitions(EvaluateConfigurations.scala:327)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.EvaluateConfigurations$.evaluateSbtFile(EvaluateConfigurations.scala:153)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadSettingsFile$1(Load.scala:1119)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$discoverProjects$2(Load.scala:1129)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.collection.MapLike.getOrElse(MapLike.scala:131)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.collection.MapLike.getOrElse$(MapLike.scala:129)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.collection.AbstractMap.getOrElse(Map.scala:65)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.memoLoadSettingsFile$1(Load.scala:1128)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$discoverProjects$4(Load.scala:1136)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.collection.immutable.List.map(List.scala:293)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadFiles$1(Load.scala:1136)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.discoverProjects(Load.scala:1150)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.discover$1(Load.scala:902)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadTransitive(Load.scala:956)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadProjects$1(Load.scala:739)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$loadUnit$12(Load.scala:742)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.timed(Load.scala:1407)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$loadUnit$1(Load.scala:742)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.timed(Load.scala:1407)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadUnit(Load.scala:695)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$builtinLoader$4(Load.scala:493)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.BuildLoader$.$anonfun$componentLoader$5(BuildLoader.scala:181)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.BuildLoader.apply(BuildLoader.scala:246)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadURI$1(Load.scala:555)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadAll(Load.scala:571)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.loadURI(Load.scala:501)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.load(Load.scala:480)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.$anonfun$apply$1(Load.scala:242)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.timed(Load.scala:1407)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.apply(Load.scala:242)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.Load$.defaultLoad(Load.scala:57)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.BuiltinCommands$.liftedTree1$1(Main.scala:964)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.BuiltinCommands$.doLoadProject(Main.scala:964)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.BuiltinCommands$.$anonfun$loadProjectImpl$2(Main.scala:917)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.Command$.$anonfun$applyEffect$4(Command.scala:151)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.Command$.$anonfun$applyEffect$2(Command.scala:146)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.Command$.process(Command.scala:194)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.$anonfun$processCommand$7(MainLoop.scala:267)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.Option.getOrElse(Option.scala:189)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.process$1(MainLoop.scala:267)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.processCommand(MainLoop.scala:314)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.$anonfun$next$5(MainLoop.scala:171)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.State$StateOpsImpl$.runCmd$1(State.scala:290)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.State$StateOpsImpl$.process$extension(State.scala:326)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.$anonfun$next$4(MainLoop.scala:171)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:24)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.next(MainLoop.scala:171)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.run(MainLoop.scala:152)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.$anonfun$runWithNewLog$1(MainLoop.scala:127)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.io.Using.apply(Using.scala:28)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.runWithNewLog(MainLoop.scala:120)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.runAndClearLast(MainLoop.scala:74)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.runLoggedLoop(MainLoop.scala:59)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.MainLoop$.runLogged(MainLoop.scala:50)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.StandardMain$.runManaged(Main.scala:225)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.xMain$.$anonfun$run$11(Main.scala:135)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.Console$.withIn(Console.scala:230)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.Terminal$.withIn(Terminal.scala:610)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.Terminal$.$anonfun$withStreams$1(Terminal.scala:390)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.Console$.withOut(Console.scala:167)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.Terminal$.$anonfun$withOut$2(Terminal.scala:600)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.util.DynamicVariable.withValue(DynamicVariable.scala:62)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at scala.Console$.withErr(Console.scala:196)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.Terminal$.withOut(Terminal.scala:600)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.util.Terminal$.withStreams(Terminal.scala:390)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.xMain$.withStreams$1(Main.scala:88)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.xMain$.run(Main.scala:123)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at java.base/java.lang.reflect.Method.invoke(Method.java:566)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.internal.XMainConfiguration.run(XMainConfiguration.java:59)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at sbt.xMain.run(Main.scala:47)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.$anonfun$run$1(Launch.scala:149)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.withContextLoader(Launch.scala:176)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.run(Launch.scala:149)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.$anonfun$apply$1(Launch.scala:44)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.launch(Launch.scala:159)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.apply(Launch.scala:44)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Launch$.apply(Launch.scala:21)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Boot$.runImpl(Boot.scala:78)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Boot$.run(Boot.scala:73)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Boot$.main(Boot.scala:21)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	at xsbt.boot.Boot.main(Boot.scala)[0m
+[0m[[0m[31merror[0m] [0m[0msbt.compiler.EvalException: Type error in expression[0m
+[0m[[0m[31merror[0m] [0m[0msbt.compiler.EvalException: Type error in expression[0m
+[0m[[0m[31merror[0m] [0m[0mUse 'last' for the full log.[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadFailed, None, None)[0m
+[0m[[0m[33mwarn[0m] [0m[0mProject loading failed: (r)etry, (q)uit, (l)ast, or (i)gnore? (default: r)[0m
