@@ -14,7 +14,11 @@
   - the online version of this textbook is freely available to everyone.
   
 **Lectures: schedule & notes**
-* Week 11. Boxes [\[src\]](src/bfae) / Mutable Variable
+* Week 15. First-class Continuation [\[pdf\]](res/ch16-first+class+cont.pdf)
+* Week 14. Continuation [\[pdf\]](res/ch15-continuation.pdf)
+* Week 13. Lazy Evaluation [\[pdf\]](res/ch14-lazy+evaluation.pdf)
+* Week 12. Garbage Collection [\[pdf\]](res/ch14-garbage+collection.pdf)
+* Week 11. Boxes [\[src\]](src/bfae) / Mutable Variable [\[pdf\]](res/ch12-mutable+variable.pdf)
 * Week 10. Midterm 2 
 * Week 9. (No class)
 * Week 8. Recursive Function [\[pdf\]](res/ch10-recursive+function.pdf) [\[src\]](src/rfae)
