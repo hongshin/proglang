@@ -13,13 +13,15 @@
   - the online version of this textbook is freely available to everyone.
   
 **Lecture materials**
+- Week 1. [Rust crash course (1)](rustcc)
 
-* Week 1. [Rust crash course (1)](rustcc)
+**Previous Class**
+- [Programming Language Theory, 2024 Fall](https://github.com/hongshin/proglang/tree/2024)
 
 **Recommended readings**
 - [프로그래밍언어 이야기](http://kwangkeunyi.snu.ac.kr/pl-book-draft.pdf) by [Prof. Kwangkeun Yi](http://kwangkeunyi.snu.ac.kr/) 
 - [프로그래밍 언어의 원리](https://prl.korea.ac.kr/courses/cose212/2023/pl-book.pdf) by [Prof. Hakjoo Oh](https://prl.korea.ac.kr/members/hakjoo-oh/)
 - [The Rust Programming Language](https://doc.rust-lang.org/book)
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust)
 - [Scala Book](https://docs.scala-lang.org/overviews/scala-book/introduction.html) / [Tours of Scala](https://docs.scala-lang.org/tour/tour-of-scala.html) / [Essential Scala](https://underscore.io/books/essential-scala/)
-
 
