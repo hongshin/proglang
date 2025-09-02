@@ -1,8 +1,8 @@
 # Programming Language Theory
 
 ### 2025 Class Attributes ###
-* 5118014-01: Mon 5PM-6PM & Tue 4PM-6PM @Room 103, S4-1
-* 5118014-02: Tue 9AM-11AM & Fri 11-12PM @Room 216, S4-1
+* 5118014-01: Mon 5PM-6PM & Tue 4PM-6PM@Room 103, S4-1
+* 5118014-02: Tue 9AM-11AM@Room 206 & Fri 11-12PM @Room 103, S4-1
 * Instructor: Shin Hong https://hongshin.github.io :e-mail: hongshin@gmail.com :door: 316 S4-1
 
 ### Learning Materials ###
