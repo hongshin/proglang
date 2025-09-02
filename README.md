@@ -13,7 +13,7 @@
   - the online version of this textbook is freely available to everyone.
   
 **Lecture materials**
-- Week 1. [Rust crash course (1)](rustcc)
+- Week 1. [Rust crash course (1)](src/rustcc)
 
 **Previous Class**
 - [Programming Language Theory, 2024 Fall](https://github.com/hongshin/proglang/tree/2024)
