@@ -13,6 +13,7 @@
   - the online version of this textbook is freely available to everyone.
   
 **Lecture materials**
+- Week 2. [Rust crash course (2)](src/rustcc)
 - Week 1. [Rust crash course (1)](src/rustcc)
 
 **Previous Class**
