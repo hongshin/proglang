@@ -11,8 +11,6 @@ fn main () {
 }
 
 
-
-
 /*
 struct Point2D(i32, i32) ;
 */

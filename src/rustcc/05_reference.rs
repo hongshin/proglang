@@ -6,17 +6,18 @@ fn main () {
 
     /*
     println!("v: {}, r: {:p}", v, r) ;
-    //let p : *const u32 = &v ;
+    //let p : *const i32 = &v ;
     */
 
-    /*
+    
     let mut v : i32 = 2026 ;
-    let p = &mut v ;
-    *p = 2024 ;
-    println!("p: {}", p) ;
-    */
-    /*
-    println!("v: {}", v) ;
-    */
+    let mut w : i32 = 99 ;
 
+    let mut p = &mut v ;
+    *p = 2024 ;
+    println!("v: {}", v) ;
+
+    p = &mut w ;
+    println!("p: {}", p) ;
+    
 }

@@ -10,21 +10,20 @@ fn double (n: i32) -> i32 {
 
 fn main () {
     let r = two() ; 
-
-    println!("r: {}, double(3): {}", r, double(3)) ;
+    println!("r: {}, double(r): {}", r, double(r)) ;
 
     /*
     {
         let r = 3 ;
-        println!("r: {}, double(3): {}", r, double(3)) ;
+        println!("double(r): {}", double(r)) ;
 
-        //println!("multiply(5): {}", multiply(r)) ;
+        println!("multiply(5,4): {}", multiply(5, 4))
     }
     */
 }
 
 /*
-fn multiply (n: i32) -> i32 {
+fn multiply (fact: i32, n: i32) -> i32 {
     fact * n 
 }
 */

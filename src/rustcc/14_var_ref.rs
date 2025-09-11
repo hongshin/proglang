@@ -5,7 +5,7 @@ fn main ()
 	let two = country ;
 
 	println!("{}", one) ;
-	//println!("{}", ref_two) ;
+	//println!("{}", two) ;
 
 	/*
 	print_country(country) ;

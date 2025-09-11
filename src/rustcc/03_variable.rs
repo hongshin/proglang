@@ -1,7 +1,12 @@
 fn main () {
-    let s = 1 ;
+    let s : i32 ;
+
+    let mut input = String::new() ;
+    io::stdin().read_line(&mut input).expect("failed") ;
+    s = input.trim().parse().expect("wrong") ;
 
     println!("s: {}", s) ;
+
 
     let s = 2 ;
     println!("s: {}", s) ;
