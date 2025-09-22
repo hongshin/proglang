@@ -6,7 +6,6 @@ fn main () {
 
     /*
     println!("v: {}, r: {:p}", v, r) ;
-    //let p : *const i32 = &v ;
     */
 
     

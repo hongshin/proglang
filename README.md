@@ -13,6 +13,8 @@
   - the online version of this textbook is freely available to everyone.
   
 **Lecture materials**
+- Week 4. [Arithematic Expression (ae)](src/ae), [Arithematic Expression with Desugar](src/ae-desugar)
+- Week 3. [Rust crash course (3)](src/rustcc)
 - Week 2. [Rust crash course (2)](src/rustcc)
 - Week 1. [Rust crash course (1)](src/rustcc)
 
@@ -24,5 +26,6 @@
 - [프로그래밍 언어의 원리](https://prl.korea.ac.kr/courses/cose212/2023/pl-book.pdf) by [Prof. Hakjoo Oh](https://prl.korea.ac.kr/members/hakjoo-oh/)
 - [The Rust Programming Language](https://doc.rust-lang.org/book)
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust)
+- [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
 - [Scala Book](https://docs.scala-lang.org/overviews/scala-book/introduction.html) / [Tours of Scala](https://docs.scala-lang.org/tour/tour-of-scala.html) / [Essential Scala](https://underscore.io/books/essential-scala/)
 
