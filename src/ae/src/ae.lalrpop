@@ -1,16 +1,17 @@
 use std::str::FromStr;
-use crate::ast::{Expr, Opcode};
+use crate::ast::{Expr, Opr};
 
 grammar;
 
-pub Expr: Box<Expr> = { 
-    "(" <l:Expr> <op:ExprOp> <r:Expr> ")" => Box::new(Expr::Op(l, op, r)), 
+pub Expr: Box<Expr> = {
     <n:Num> => Box::new(Expr::Num(n)),
+    "(" <l:Expr> <op:ExprOp> <r:Expr> ")" => Box::new(Expr::Op(l, op, r)), 
+    "(" <e:Expr> ")" => e,
 };
 
-ExprOp: Opcode = {
-    "+" => Opcode::Add,
-    "-" => Opcode::Sub,
+ExprOp: Opr = {
+    "+" => Opr::Add,
+    "-" => Opr::Sub,
 };
 
 Num: i32 = {

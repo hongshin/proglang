@@ -3,12 +3,12 @@ use std::fmt ;
 #[derive(Debug, Clone)]
 pub enum Expr {
     Num(i32),
-    Op(Box<Expr>, Opcode, Box<Expr>),
+    Op(Box<Expr>, Opr, Box<Expr>),
     Neg(Box<Expr>),
 }
 
 #[derive(Debug, Copy, Clone)]
-pub enum Opcode {
+pub enum Opr {
     Add,
     Sub,
 }
@@ -17,11 +17,11 @@ pub enum Opcode {
 
 
 pub fn add (l: Box<Expr>, r: Box<Expr>) -> Box<Expr> {
-    Box::new(Expr::Op(l, Opcode::Add, r))
+    Box::new(Expr::Op(l, Opr::Add, r))
 }
 
 pub fn sub (l: Box<Expr>, r: Box<Expr>) -> Box<Expr> {
-    Box::new(Expr::Op(l, Opcode::Sub, r))
+    Box::new(Expr::Op(l, Opr::Sub, r))
 }
 
 pub fn num (n: i32) -> Box<Expr> {
@@ -38,16 +38,16 @@ impl fmt::Display for Expr {
 		match self {
 			Expr::Num(n) => write!(f, "{}", n),
 			Expr::Op(l, op, r) => write!(f, "({} {} {})", l, op, r),
-            Expr::Neg(e) => write!(f, "-({})", e)
+			Expr::Neg(e) => write!(f, "-{}", e),
 		}
 	}
 }
 
-impl fmt::Display for Opcode {
+impl fmt::Display for Opr {
 	fn fmt (&self, f: &mut fmt::Formatter) -> fmt::Result {
 		match self {
-			Opcode::Add => write!(f, "+"),
-			Opcode::Sub => write!(f, "-")
+			Opr::Add => write!(f, "+"),
+			Opr::Sub => write!(f, "-"),
 		}
 	}
 }

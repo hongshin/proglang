@@ -1,5 +1,5 @@
 use std::str::FromStr ;
-use crate::ast::{Expr,Opcode} ;
+use crate::ast::{Expr,Opr} ;
 
 grammar;
 
@@ -7,16 +7,17 @@ pub Expr: Box<Expr> = {
     "(" <l:Expr> <op:ExprOp> <r:Expr> ")" => Box::new(Expr::Op(l, op, r)), 
     <n:Num> => Box::new(Expr::Num(n)),
     "val" <x:Id> "=" <e1:Expr> "in" <e2:Expr> => Box::new(Expr::Val(String::from(x), e1, e2)),
-    <x:Id> => Box::new(Expr::Ref(String::from(x)))
+    <x:Id> => Box::new(Expr::Use(String::from(x))),
+    "(" <e:Expr> ")" => e,
 };
 
-ExprOp: Opcode = {
-    "+" => Opcode::Add,
-    "-" => Opcode::Sub,
+ExprOp: Opr = {
+    "+" => Opr::Add,
+    "-" => Opr::Sub,
 };
 
 Id: String = {
-    r"[a-z][a-z0-9]*" => String::from(<>),
+    r"[a-zA-Z][a-zA-Z0-9]*" => String::from(<>),
 }
 
 Num: i32 = {
