@@ -13,7 +13,10 @@
   - the online version of this textbook is freely available to everyone.
   
 **Lecture materials**
-- Week 4. [Arithematic Expression (ae)](src/ae), [Arithematic Expression with Desugar](src/ae-desugar)
+- Week 7. [Arithmetic Expression with Variable](src/vae)
+- Week 6. [Rust crash course (4)](src/rustcc)
+- Week 5. [Arithmeatic Expression with Desugar](src/ae-desugar)
+- Week 4. [Arithmetic Expression (ae)](src/ae)
 - Week 3. [Rust crash course (3)](src/rustcc)
 - Week 2. [Rust crash course (2)](src/rustcc)
 - Week 1. [Rust crash course (1)](src/rustcc)
