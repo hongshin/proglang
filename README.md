@@ -13,6 +13,11 @@
   - the online version of this textbook is freely available to everyone.
   
 **Lecture materials**
+- Week 14. [MFAE: VAE with Mutable Variables]()
+- Week 13. [BFAE: VAE with Boxes]()
+- Week 12. [RFAE: VAE with Recursive Functions](src/rfae)
+- Week 11. [FVAE: Recursion Using Fixed-point Combinator](src/fvae)
+- Week 10. [FVAE: VAE with First-class Function](src/fvae)
 - Week 9. [F1VAE: VAE with First-order Functions](src/f1vae)
 - Week 7. [VAE: Arithmetic Expression with Variable](src/vae)
 - Week 6. [Rust crash course (4)](src/rustcc)

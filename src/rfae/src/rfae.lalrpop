@@ -1,0 +1,50 @@
+use std::str::FromStr ;
+use crate::ast::{Expr,Opr} ;
+
+grammar;
+
+pub Expr: Box<Expr> = { 
+    <n:Num> 
+        => Box::new(Expr::Num(n)),
+
+    "(" <n:Num> ")"
+        => Box::new(Expr::Num(n)),
+
+    <x:Id> 
+        => Box::new(Expr::Use(String::from(x))),
+        
+    "(" <x:Id> ")"
+        => Box::new(Expr::Use(String::from(x))),
+
+    "(" <l:Expr> <op:ExprOp> <r:Expr> ")" 
+        => Box::new(Expr::Op(l, op, r)), 
+
+    "(" "let" <x:Id> "=" <e1:Expr> "in" <e2:Expr> ")" 
+        => Box::new(Expr::Let(String::from(x), e1, e2)),
+
+    "(" "lambda" <x:Id> "to" <e:Expr> ")" 
+        => Box::new(Expr::Lambda(x, e)),
+
+    "(" <e1:Expr> <e2:Expr> ")"
+        => Box::new(Expr::App(e1, e2)),
+
+    "(" "def" <f:Id> "(" <x:Id> ")" "=" <e1:Expr> "in" <e2:Expr> ")"
+        => Box::new(Expr::Def(f, x, e1, e2)),
+
+    "(" "if0" <ec:Expr> <et:Expr> <ef:Expr> ")"
+        => Box::new(Expr::If0(ec, et, ef)),
+};
+
+ExprOp: Opr = {
+    "+" => Opr::Add,
+    "-" => Opr::Sub,
+};
+
+Id: String = {
+    r"[a-zA-Z][a-zA-Z0-9]*" => String::from(<>),
+}
+
+Num: i32 = {
+    r"(-)?[0-9]+" => i32::from_str(<>).unwrap(),
+}
+
