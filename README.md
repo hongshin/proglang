@@ -1,40 +1,42 @@
-# Programming Language Theory
+# Principles of Programming Language, Fall 2026
 
-### 2025 Class Attributes ###
-* 5118014-01: Mon 5PM-6PM & Tue 4PM-6PM@Room 103, S4-1
-* 5118014-02: Tue 9AM-11AM@Room 206 & Fri 11-12PM @Room 103, S4-1
-* Instructor: Shin Hong https://hongshin.github.io :e-mail: hongshin@gmail.com :door: 316 S4-1
+* Instructor: Shin Hong https://hongshin.github.io :e-mail: hongshin@gmail.com
 
-### Learning Materials ###
+### References ###
 
-**Textbooks**
-* **[Easy Rust](https://dhghomon.github.io/easy_rust/)**
 * **[*Introduction to Programming Languages* ](https://hjaem.info/itpl)**
-  - the online version of this textbook is freely available to everyone.
-  
-**Lecture materials**
-- Week 14. [MFAE: VAE with Mutable Variables]()
-- Week 13. [BFAE: VAE with Boxes]()
-- Week 12. [RFAE: VAE with Recursive Functions](src/rfae)
-- Week 11. [FVAE: Recursion Using Fixed-point Combinator](src/fvae)
-- Week 10. [FVAE: VAE with First-class Function](src/fvae)
-- Week 9. [F1VAE: VAE with First-order Functions](src/f1vae)
-- Week 7. [VAE: Arithmetic Expression with Variable](src/vae)
-- Week 6. [Rust crash course (4)](src/rustcc)
-- Week 5. [Arithmeatic Expression with Desugar](src/ae-desugar)
-- Week 4. [Arithmetic Expression (ae)](src/ae)
-- Week 3. [Rust crash course (3)](src/rustcc)
-- Week 2. [Rust crash course (2)](src/rustcc)
-- Week 1. [Rust crash course (1)](src/rustcc)
+* **[Rust by Example](https://doc.rust-lang.org/rust-by-example)**
+* **[Easy Rust](https://dhghomon.github.io/easy_rust/)**
 
-**Previous Class**
-- [Programming Language Theory, 2024 Fall](https://github.com/hongshin/proglang/tree/2024)
+### Class Materials ###
+
+* Mathematical Preliminaries
+    - Set, Relation and Function
+    - Inductive Definition 
+    - Homework 1
+* Rust programming languages
+    - Primitives
+    - Compound Types
+    - Function
+    - Memory
+* Syntax and Semantics (Lecture 3)
+    - lecture note
+    - code examples
+* Identifiers (Lecture 4)
+    - lecture note
+    - code examples
+
+### Useful Links ###
 
 **Recommended readings**
 - [프로그래밍언어 이야기](http://kwangkeunyi.snu.ac.kr/pl-book-draft.pdf) by [Prof. Kwangkeun Yi](http://kwangkeunyi.snu.ac.kr/) 
 - [프로그래밍 언어의 원리](https://prl.korea.ac.kr/courses/cose212/2023/pl-book.pdf) by [Prof. Hakjoo Oh](https://prl.korea.ac.kr/members/hakjoo-oh/)
 - [The Rust Programming Language](https://doc.rust-lang.org/book)
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust)
-- [Rust by Example](https://doc.rust-lang.org/rust-by-example/index.html)
 - [Scala Book](https://docs.scala-lang.org/overviews/scala-book/introduction.html) / [Tours of Scala](https://docs.scala-lang.org/tour/tour-of-scala.html) / [Essential Scala](https://underscore.io/books/essential-scala/)
+
+**Previous Class**
+- [Principles of Programming Languages, Fall 2025](https://github.com/hongshin/proglang/tree/2025Fall)
+- [Principles of Programming Languages, Fall 2024](https://github.com/hongshin/proglang/tree/2024)
+
 
