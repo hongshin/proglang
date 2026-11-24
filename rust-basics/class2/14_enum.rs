@@ -1,12 +1,14 @@
 enum ThingsInTheSky {
     Sun,
     Stars,
+    Moon,
 }
 
 fn create_skystate(time: i32) -> ThingsInTheSky {
    match time {
         6..=18 => ThingsInTheSky::Sun, 
-        _ => ThingsInTheSky::Stars,
+        ..=6 => ThingsInTheSky::Stars,
+        20.. => ThingsInTheSky::Moon
     }
     /*
     if 6 <= time && time <= 18 {
@@ -22,7 +24,8 @@ fn create_skystate(time: i32) -> ThingsInTheSky {
 fn check_skystate (state: ThingsInTheSky) -> () {
     match state {
         ThingsInTheSky::Sun => println!("I can see the sun!"),
-        ThingsInTheSky::Stars => println!("I can see the stars!")
+        ThingsInTheSky::Stars => println!("I can see the stars!"),
+        ThingsInTheSky::Moon => println!("I can see the moon!")
     }
 }
 
