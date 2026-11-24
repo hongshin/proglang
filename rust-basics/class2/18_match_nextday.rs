@@ -25,6 +25,13 @@ fn next_day (year: i32, month: i32, day: i32) -> Option<(i32, i32, i32)> {
                         None
                     }
                 },
+                28 => 
+                    if year % 400 == 0 || year % 4 == 0 {
+                        Some((year, month, 29))
+                    }
+                    else {
+                        Some((year, 3, 1))
+                    }
                 _ => Some((year, month, day + 1))
             }
         _ => {
@@ -41,4 +48,9 @@ fn main () {
     println!("{:?}", next_day(2024, 2, 28));
     println!("{:?}", next_day(2026, 2, 29));
     println!("{:?}", next_day(2026, 11, 24));
+
+    match next_day(2025, 2, 29) {
+        None => println!("Invalid"),
+        Some((y,m,d)) => println!("{}-{}-{}", y, m, d) 
+    }
 }
